@@ -12,7 +12,9 @@ public class Car {
         System.out.println("The color of the car is: " + color);
         System.out.println("The speed of the car is: " + speed);
         System.out.println("The model of the car is: " + model);
-        myName=name;
+        myName = name;
+        this.color = color;
+        this.speed = speed;
     }
 
     public static void start () {
@@ -21,6 +23,14 @@ public class Car {
 
     public void printName () {
         System.out.println("The name of the car is: " + myName);
+    }
+
+    public void printColor () {
+        System.out.println("The color of the car is: " + color);
+    }
+
+    public void printSpeed () {
+        System.out.println("The speed of the car is: " + speed);
     }
 
 }

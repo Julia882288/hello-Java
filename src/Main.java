@@ -32,6 +32,14 @@ public class Main {
         car2.printName();
         car3.printName();
 
+        car1.printColor();
+        car2.printColor();
+        car3.printColor();
+
+        car1.printSpeed();
+        car2.printSpeed();
+        car3.printSpeed();
+
     }
 
 }
