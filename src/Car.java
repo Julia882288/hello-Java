@@ -17,6 +17,10 @@ public class Car {
         this.speed = speed;
     }
 
+    public Car (String BName) {
+        System.out.println("BName");
+            }
+
     public static void start () {
         System.out.println("The car has started to move");
     }
@@ -33,4 +37,15 @@ public class Car {
         System.out.println("The speed of the car is: " + speed);
     }
 
+
+    public void newCar () {
+        System.out.println("The name of the newCar is: !" + myName);
+    }
+    public static void helloNewCar () {
+        System.out.println("This the new Car static method!");
+
+    }
+    public void printAllParms(String name, String color, int speed, String model) {
+        System.out.println("The name of the car is: " + name + ", " + "The color of the car is: " + color + ", " + "The speed of the car is: " + speed + ", " + "The model of the car is: " + model + "." );
+    }
 }
